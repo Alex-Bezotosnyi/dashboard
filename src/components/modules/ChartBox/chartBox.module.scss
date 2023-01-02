@@ -1,0 +1,20 @@
+@import "../../styles/main";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background: $fontWhite;
+  transition: all .5s ease;
+  padding: 4vh;
+  border-radius: 5px;
+  box-shadow: 0 0 5px $shadowLight;
+
+  h3 {
+    font-family: $mainFont;
+    margin-right: auto;
+    margin-top: 0;
+    color: $mainFont !important;
+  }
+}

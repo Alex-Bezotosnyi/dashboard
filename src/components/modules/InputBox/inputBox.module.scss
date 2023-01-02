@@ -1,0 +1,160 @@
+@import "../../styles/main";
+@import "../../styles/media";
+
+.wrapper {
+  display: grid;
+  gap: 1rem;
+  margin-top: 0;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px $shadowLight;
+  background: $fontWhite;
+  transition: all .5s ease;
+
+  &__container {
+    display: grid;
+    justify-items: center;
+    font-family: $mainFont;
+
+    & form {
+      display: grid;
+      gap: 4vh;
+
+      & input {
+        font-family: $mainFont;
+        padding: 1.5vh;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 0 3px $shadowLight;
+        outline: 0 solid $shadowLight;
+      }
+
+      & input:focus {
+        outline: 3px solid $shadowLight;
+        transition: 200ms;
+      }
+
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      input[type=number] {
+        -moz-appearance: textfield;
+      }
+    }
+
+    &__box {
+      display: grid;
+      gap: 1rem;
+    }
+  }
+}
+
+.dark {
+  display: grid;
+  gap: 1rem;
+  margin-top: 0;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px $shadowDark;
+  background: $bgPageDark;
+  transition: all .5s ease;
+
+  &__container {
+    display: grid;
+    justify-items: center;
+    font-family: $mainFont;
+
+    & form {
+      display: grid;
+      gap: 4vh;
+
+      & input {
+        font-family: $mainFont;
+        padding: 1.5vh;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 0 3px $shadowLight;
+        outline: 0 solid $shadowLight;
+      }
+
+      & input:focus {
+        outline: 3px solid $shadowLight;
+        transition: 200ms;
+      }
+
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      input[type=number] {
+        -moz-appearance: textfield;
+      }
+    }
+
+    &__box {
+      display: grid;
+      gap: 1rem;
+    }
+  }
+}
+
+@include sm {
+  .wrapper {
+    & form {
+      & input {
+        width: 250px;
+      }
+    }
+  }
+
+  .dark {
+    & form {
+      & input {
+        width: 250px;
+      }
+    }
+  }
+}
+
+@include xs {
+  .wrapper {
+    padding: 5vh 0;
+
+    &__container {
+      &__box {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+
+      & form {
+        & input {
+          width: 300px;
+        }
+      }
+    }
+  }
+
+  .dark {
+    padding: 5vh 0;
+
+    &__container {
+      &__box {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+
+      & form {
+        & input {
+          width: 300px;
+        }
+      }
+    }
+  }
+}

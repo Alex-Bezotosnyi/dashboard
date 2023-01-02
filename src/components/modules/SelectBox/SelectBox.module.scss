@@ -1,0 +1,55 @@
+@import "../../styles/main";
+
+.light {
+  display: grid;
+  gap: 1rem;
+  margin-top: 0;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px $shadowLight;
+  background: $fontWhite;
+  transition: all .5s ease;
+
+  & form {
+    display: grid;
+    gap: 4vh;
+
+    & select {
+      width: 250px;
+      font-family: $mainFont;
+      color: $shadowLight;
+      padding: 1.5vh;
+      border-radius: 5px;
+      border: none;
+      box-shadow: 0 0 3px $shadowLight;
+      outline: 0 solid $shadowLight;
+    }
+  }
+}
+
+.dark {
+  display: grid;
+  gap: 1rem;
+  margin-top: 0;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px $shadowDark;
+  background: $bgPageDark;
+  transition: all .5s ease;
+
+  & form {
+    display: grid;
+    gap: 4vh;
+
+    & select {
+      width: 250px;
+      font-family: $mainFont;
+      color: $shadowLight;
+      padding: 1.5vh;
+      border-radius: 5px;
+      border: none;
+      box-shadow: 0 0 3px $shadowDark;
+      outline: 0 solid $shadowDark;
+    }
+  }
+}

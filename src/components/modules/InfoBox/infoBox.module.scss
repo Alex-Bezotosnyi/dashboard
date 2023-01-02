@@ -1,0 +1,41 @@
+@import "../../styles/main";
+
+.wrapper {
+  display: grid;
+  gap: 1rem;
+  margin-top: 0;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px $shadowLight;
+  background: $blueMain;
+  font-family: $mainFont;
+  transition: all .5s ease;
+
+  &__country {
+    padding-bottom: 3vh;
+    text-align: left;
+
+    div {
+      font-size: em(16) !important;
+    }
+
+    img {
+      width: 60px !important;
+    }
+  }
+
+  &__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    gap: 3vh;
+  }
+
+  ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0 auto;
+  }
+}

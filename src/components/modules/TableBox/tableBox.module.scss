@@ -1,0 +1,103 @@
+@import "../../styles/main";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: $fontWhite;
+  transition: all .5s ease;
+  padding: 5vh;
+  border-radius: 5px;
+  box-shadow: 0 0 5px $shadowLight;
+
+  &__table {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  h3 {
+    font-family: $mainFont;
+    margin-right: auto;
+    margin-top: 0;
+    color: $mainFont !important;
+  }
+
+  & table {
+    width: 100%;
+    font-family: $mainFont;
+    text-align: center;
+    border-collapse: collapse;
+    //height: 100%;
+    //padding-bottom: 30px;
+    //margin-top: -5vh;
+
+    th {
+      //padding: 20%;
+    }
+
+    tr {
+      border-bottom: 2px solid $fontWhiteBlue;
+    }
+
+    td {
+      padding: .5vh 0;
+    }
+
+    //tr:nth-child(even) {
+    //background: $fontWhiteBlue;
+    //}
+
+    tfoot {
+      //padding-bottom: 50px;
+    }
+
+    & table caption {
+      font-size: 1.5em;
+      margin: .5em 0 .75em;
+    }
+  }
+}
+
+.dark {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff0a;
+  color: $fontWhite;
+  min-height: auto;
+  transition: all .5s ease;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px $shadowLight;
+
+  h3 {
+    font-family: $mainFont;
+    margin-right: auto;
+    margin-top: 0;
+    color: $mainFont !important;
+  }
+
+  & table {
+    font-family: $mainFont;
+    text-align: center;
+    height: 100%;
+    padding-bottom: 30px;
+    margin-top: -5vh;
+
+    th {
+      padding: 20px;
+    }
+
+    td {
+      padding: 5px;
+    }
+
+    tfoot {
+      padding-bottom: 50px;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@import "main";
+@import "colors";
+
+@mixin button-colors($bg, $font) {
+  background: $bg;
+  color: $font;
+  box-shadow: 0 0 2px $bg;
+  outline: 0 solid $bg;
+
+  &:hover {
+    outline: 1px solid $bg;
+    transition: all 0.3s ease;
+  }
+
+  img {
+    width: 15px;
+    padding-right: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $font;
+  }
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  font-family: $mainFont;
+  font-weight: 500;
+  cursor: pointer;
+  margin: auto;
+}
+
+.btn-blue {
+  @include button-colors($blueMain, $fontWhite)
+}
+
+.btn-white {
+  @include button-colors($fontWhite, $blueMain)
+}
+
+.btn-success {
+  @include button-colors($bgSuccess, $fontWhite)
+}
+
+.btn-error {
+  @include button-colors($bgError, $fontWhite);
+  height: 25px;
+  width: 25px;
+}

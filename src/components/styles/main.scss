@@ -1,0 +1,46 @@
+@import "colors";
+@import "fonts";
+@import "functions";
+@import "media";
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: $bgPageLight;
+  transition: all .5s ease;
+}
+
+.dark {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: $bgPageDark;
+  transition: all .5s ease;
+
+  & footer {
+    color: $fontWhite;
+  }
+}
+
+footer {
+  margin-top: auto;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+  font-family: $headerFont;
+  box-shadow: 0 0 5px $shadowLight;
+  background: none;
+}
