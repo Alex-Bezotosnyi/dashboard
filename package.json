@@ -1,6 +1,7 @@
 {
-  "name": "mount",
-  "version": "0.1.0",
+  "homepage": "https://alex-bezotosnyi.github.io/dashboard/",
+  "name": "dashboard",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
