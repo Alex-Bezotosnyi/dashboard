@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5cbd9fa.css",
-    "main.js": "/static/js/main.39a5a4a2.js",
-    "static/media/select-country.png": "/static/media/select-country.706f9a627cca9d3935b4.png",
-    "static/media/distance.png": "/static/media/distance.7382ce2a3d955089e8c4.png",
-    "static/media/table.png": "/static/media/table.50871204ca300106b538.png",
-    "static/media/startPoint.png": "/static/media/startPoint.414f23975f7fcc76ee36.png",
-    "static/media/input.png": "/static/media/input.6926b01cffbc2e3ee7f7.png",
-    "static/media/highestPoint.png": "/static/media/highestPoint.d7cf4132c453aa0daccc.png",
-    "static/media/endPoint.png": "/static/media/endPoint.beaccf7e2e4aa42c713d.png",
-    "static/media/country.png": "/static/media/country.3d53d63c3bcd858267d0.png",
-    "index.html": "/index.html",
-    "main.f5cbd9fa.css.map": "/static/css/main.f5cbd9fa.css.map",
-    "main.39a5a4a2.js.map": "/static/js/main.39a5a4a2.js.map"
+    "main.css": "/dashboard/static/css/main.f5cbd9fa.css",
+    "main.js": "/dashboard/static/js/main.dd38b2ec.js",
+    "static/media/select-country.png": "/dashboard/static/media/select-country.706f9a627cca9d3935b4.png",
+    "static/media/distance.png": "/dashboard/static/media/distance.7382ce2a3d955089e8c4.png",
+    "static/media/table.png": "/dashboard/static/media/table.50871204ca300106b538.png",
+    "static/media/startPoint.png": "/dashboard/static/media/startPoint.414f23975f7fcc76ee36.png",
+    "static/media/input.png": "/dashboard/static/media/input.6926b01cffbc2e3ee7f7.png",
+    "static/media/highestPoint.png": "/dashboard/static/media/highestPoint.d7cf4132c453aa0daccc.png",
+    "static/media/endPoint.png": "/dashboard/static/media/endPoint.beaccf7e2e4aa42c713d.png",
+    "static/media/country.png": "/dashboard/static/media/country.3d53d63c3bcd858267d0.png",
+    "index.html": "/dashboard/index.html",
+    "main.f5cbd9fa.css.map": "/dashboard/static/css/main.f5cbd9fa.css.map",
+    "main.dd38b2ec.js.map": "/dashboard/static/js/main.dd38b2ec.js.map"
   },
   "entrypoints": [
     "static/css/main.f5cbd9fa.css",
-    "static/js/main.39a5a4a2.js"
+    "static/js/main.dd38b2ec.js"
   ]
 }
