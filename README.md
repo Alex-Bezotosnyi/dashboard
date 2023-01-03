@@ -1,9 +1,10 @@
-## Link ti the project: https://alex-bezotosnyi.github.io/Dashboard/
+## Link to the project: https://alex-bezotosnyi.github.io/dashboard/
 
 ## In the future: 
 - I'll optimize SASS;
 - add edit to points;
-- convert JavaScript to Typescript
+- convert JavaScript to Typescript;
+- add tests
 
 
 
