@@ -6,9 +6,9 @@ import InfoBox from "../../modules/InfoBox/InfoBox";
 import {TableBox} from "../../modules/TableBox/TableBox";
 import InputBox from "../../modules/InputBox/InputBox";
 
-import MainCSS from "./mount.module.scss";
+import MainCSS from "./dashboard.module.scss";
 
-const Mount = () => {
+const Dashboard = () => {
 
     const {darkMode} = useContext(DarkModeContext);
     return (
@@ -32,4 +32,4 @@ const Mount = () => {
     );
 };
 
-export default Mount;
+export default Dashboard;

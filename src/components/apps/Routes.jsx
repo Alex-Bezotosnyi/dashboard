@@ -1,11 +1,11 @@
 import {Route, Routes} from "react-router-dom";
-import Mount from "../pages/Mount/Mount";
+import Dashboard from "../pages/Dashboard/Dashboard";
 
 export const RoutesApp = () => {
     return (
         <Routes>
-            <Route path="/dashboard" element={<Mount/>} />
-            <Route path="*" element={<Mount/>} />
+            <Route path="/" element={<Dashboard/>} />
+            <Route path="*" element={<Dashboard/>} />
         </Routes>
     )
 }

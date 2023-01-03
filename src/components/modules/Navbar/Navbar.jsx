@@ -13,13 +13,13 @@ export const Navbar = () => {
     return (
         <nav className={darkMode ? `${NavbarCSS.dark}` : `${NavbarCSS.wrapper}`}>
             <ul className={NavbarCSS.logo}>
-                <img src={darkMode ? LogoLightIMG : LogoDarkIMG} alt="Mount"/>
+                <img src={darkMode ? LogoLightIMG : LogoDarkIMG} alt="Dashboard"/>
             </ul>
             <ul>
-                <NavLink to="/dashboard"
+                <NavLink to="/"
                          className={({isActive}) =>
                              (isActive ? NavbarCSS.wrapper__active : NavbarCSS.wrapper__inactive)}>
-                    Mount
+                    Dashboard
                 </NavLink>
             </ul>
             <ul>
