@@ -20,14 +20,9 @@ export const Navbar = () => {
                              (isActive ? NavbarCSS.wrapper__active : NavbarCSS.wrapper__inactive)}>
                     Mount
                 </NavLink>
-                {/*<NavLink to="/chart"*/}
-                {/*         className={({isActive}) =>*/}
-                {/*             (isActive ? NavbarCSS.wrapper__active : NavbarCSS.wrapper__inactive)}>*/}
-                {/*    ChartBox*/}
-                {/*</NavLink>*/}
             </ul>
             <ul>
-                <Switch/>
+                {/*<Switch/>*/}
             </ul>
         </nav>
     );
