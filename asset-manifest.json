@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dashboard/static/css/main.f5cbd9fa.css",
-    "main.js": "/dashboard/static/js/main.b944cbfc.js",
+    "main.css": "/dashboard/static/css/main.f53b2a85.css",
+    "main.js": "/dashboard/static/js/main.7536a97c.js",
     "static/media/select-country.png": "/dashboard/static/media/select-country.706f9a627cca9d3935b4.png",
     "static/media/distance.png": "/dashboard/static/media/distance.7382ce2a3d955089e8c4.png",
     "static/media/table.png": "/dashboard/static/media/table.50871204ca300106b538.png",
@@ -11,11 +11,11 @@
     "static/media/endPoint.png": "/dashboard/static/media/endPoint.beaccf7e2e4aa42c713d.png",
     "static/media/country.png": "/dashboard/static/media/country.3d53d63c3bcd858267d0.png",
     "index.html": "/dashboard/index.html",
-    "main.f5cbd9fa.css.map": "/dashboard/static/css/main.f5cbd9fa.css.map",
-    "main.b944cbfc.js.map": "/dashboard/static/js/main.b944cbfc.js.map"
+    "main.f53b2a85.css.map": "/dashboard/static/css/main.f53b2a85.css.map",
+    "main.7536a97c.js.map": "/dashboard/static/js/main.7536a97c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5cbd9fa.css",
-    "static/js/main.b944cbfc.js"
+    "static/css/main.f53b2a85.css",
+    "static/js/main.7536a97c.js"
   ]
 }
