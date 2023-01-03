@@ -1,3 +1,12 @@
+## Link ti the project: https://alex-bezotosnyi.github.io/Dashboard/
+
+## In future: 
+- I'll optimaze SASS;
+- add edit to points;
+- convert JavaScript to Typescript
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
