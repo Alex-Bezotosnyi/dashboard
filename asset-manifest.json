@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dashboard/static/css/main.f5cbd9fa.css",
-    "main.js": "/dashboard/static/js/main.dd38b2ec.js",
+    "main.js": "/dashboard/static/js/main.be2869dc.js",
     "static/media/select-country.png": "/dashboard/static/media/select-country.706f9a627cca9d3935b4.png",
     "static/media/distance.png": "/dashboard/static/media/distance.7382ce2a3d955089e8c4.png",
     "static/media/table.png": "/dashboard/static/media/table.50871204ca300106b538.png",
@@ -12,10 +12,10 @@
     "static/media/country.png": "/dashboard/static/media/country.3d53d63c3bcd858267d0.png",
     "index.html": "/dashboard/index.html",
     "main.f5cbd9fa.css.map": "/dashboard/static/css/main.f5cbd9fa.css.map",
-    "main.dd38b2ec.js.map": "/dashboard/static/js/main.dd38b2ec.js.map"
+    "main.be2869dc.js.map": "/dashboard/static/js/main.be2869dc.js.map"
   },
   "entrypoints": [
     "static/css/main.f5cbd9fa.css",
-    "static/js/main.dd38b2ec.js"
+    "static/js/main.be2869dc.js"
   ]
 }
